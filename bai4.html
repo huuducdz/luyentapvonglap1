@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let n1=0;
+    let n2=1;
+    let n3;
+    let num=Number
+    let x=0;
+    for (n3=0;n3<num;){
+        n3=n1+n2;
+        n1=n2;
+        n2=n3;
+        if(n3 % 5 === 0){
+            x=n3;
+        }
+    }
+    document.write("so dau tien chia het cho 5 trong mang fibonacci la: "+x);
+</script>
+
+</body>
+</html>
